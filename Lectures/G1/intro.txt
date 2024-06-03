@@ -1,0 +1,26 @@
+Teams code: dawy7lb 
+
+n.ussyukin@kbtu.kz
+In Teams, I am available on work days 
+from 9:00 till 21:00
+
+In case you have urgent matter, you can send me an e-mail
+or you can call in Teams
+
+For Mac users: open the "Terminal" app, type "g++" and press enter.
+If the compiler is not already, you will prompted to install it. 
+Chose the option to install it, wait for the installation to finish.
+After that, you're good to go!
+
+For Windows users: 
+- open cmd or powershell, type "g++ -v" without quotes, press enter
+- if you get an error, proceed forward, otherwise you have mingw (g++) installed
+- open the link http://grav.ejudge.kz/distr
+- download the "mingw-vscode" archive
+- unpack it wherever you prefer
+- move the unpacked "mingw-vscode" folder into the root of the C:\ drive
+- run the file called "run" (or "run.bat")
+- if prompted, choose "Run anyway"
+- reopen (or open) cmd or powershell, type "g++ -v" without quotes, press enter
+If you have no errors at this point, you're good to go!
+
