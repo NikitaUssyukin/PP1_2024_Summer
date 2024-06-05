@@ -11,9 +11,6 @@ int main() {
     }
     cout << "Liftoff!\n";
 
-
-    
-
     return 0;
 }
 
