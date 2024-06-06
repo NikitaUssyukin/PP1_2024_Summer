@@ -9,17 +9,13 @@ using namespace std;
 
 int main() {
 
-    int a, b;
+    // different ways to declare a variable
 
-    a = 5;
-
-    b = 2;
-
-    cout << a << endl;
-
-    a = b;
-
-    cout << a << endl;
+    int a; 
+    int b;
+    int c, d;
+    int e = 5;
+    int f, g = 7, h;
 
     return 0;
 }

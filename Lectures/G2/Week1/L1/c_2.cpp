@@ -9,17 +9,14 @@ using namespace std;
 
 int main() {
 
-    int a, b;
-
+    int a; 
+    int A; // different from int a;
+    
     a = 5;
+    A = 10;
 
-    b = 2;
-
-    cout << a << endl;
-
-    a = b;
-
-    cout << a << endl;
+    cout << "a: " << a << endl;
+    cout << "A: " << A << endl;
 
     return 0;
 }
