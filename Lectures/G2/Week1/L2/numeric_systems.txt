@@ -1,0 +1,81 @@
+numeric systems:
+decimal
+binary
+octal
+hexadecimal
+
+1. decimal
+base - 10
+254 = 2 * 10^2 + 5 * 10^1 + 4 * 10^0
+
+from decimal to decimal:
+
+254
+
+254 % 10 = 4 (4 * 10^0)
+254 / 10 = 25
+
+25 % 10 = 5 (5 * 10^1)
+25 / 10 = 2
+
+2 % 10 = 2 (2 * 10^2)
+2 / 10 = 0
+
+Result: 254
+
+2. binary 
+base - 2
+1011 = 1 * 2^3 + 0 * 2^2 + 1 * 2^1 + 1 * 2^0
+1011 = 1 * 8 + 0 * 4 + 1 * 2 + 1 * 1 = 11
+
+bit - smallest possible piece of information
+each bit can be either 0 or 1
+1 byte = 8 bit
+
+from decimal to binary:
+
+42
+
+42 % 2 = 0
+42 / 2 = 21
+
+21 % 2 = 1
+21 / 2 = 10
+
+10 % 2 = 0
+10 / 2 = 5
+
+5 % 2 = 1
+5 / 2 = 2
+
+2 % 2 = 0
+2 / 2 = 1
+
+1 % 2 = 1
+1 / 2 = 0
+
+Result: 101010
+
+3. hexadecimal
+base - 16
+A - 10
+B - 11
+C - 12
+D - 13
+E - 14
+F - 15
+
+7AF = 7 * 16^2 + 10 * 16^1 + 15 * 16^0 
+7AF = 7 * 256 + 10 * 16 + 15 * 1 = 1967
+
+from decimal to hexadecimal:
+
+254
+
+254 % 16 = 14 (E in hex)
+254 / 16 = 15
+
+15 % 16 = 15 (F in hex)
+15 / 16 = 0
+
+Result: FE
