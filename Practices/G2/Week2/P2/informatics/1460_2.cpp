@@ -1,3 +1,5 @@
+// INCOMPLETE SOLUTION
+
 #include <iostream>
 #include <cmath>
 
@@ -15,28 +17,27 @@ int main() {
 
     cin >> k;
 
-    if(k >= 0) {
-        for(int i = n - k; i < n; ++i) {
-            cout << a[i] << " ";
-        }
+    k %= n; // k = k % n
 
-        for(int i = 0; i < n - k; ++i) {
-            cout << a[i] << " ";
+    if(k >= 0) {
+        for(int i = 0; i < n; ++i) {
+            cout << a[(i + k - 1) % n] << " ";
+            // i = 2 3 4 0 1
+            // k = 3
+            // n = 5
         }
         cout << endl;
     }
     else {
-        k = abs(k); // or k = -k
-        for(int i = n - (n - k); i < n; ++i) {
-            cout << a[i] << " ";
-        }
-
-        for(int i = 0; i < n - (n - k); ++i) {
-            cout << a[i] << " ";
+        k = abs(k);
+        for(int i = 0; i < n; ++i) {
+            cout << a[(i + k) % n] << " ";
+            // i = 3 4 0 1 2
+            // k = -3
+            // n = 5
         }
         cout << endl;
     }
-
     
 
     return 0;
