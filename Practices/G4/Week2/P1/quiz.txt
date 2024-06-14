@@ -1,0 +1,9 @@
+After you finish the quiz:
+1. Delete the files/folder with your code
+2. Empty the recycle bin
+3. Close all windows
+4. Turn off your PC
+5. Take your login paper with you, throw it away
+    - If you leave your login paper after you finish, 
+    you'll get -1 point
+6. Come back for the 3rd hour of practice
