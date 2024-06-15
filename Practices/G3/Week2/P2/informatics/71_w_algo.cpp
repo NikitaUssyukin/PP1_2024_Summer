@@ -15,6 +15,7 @@ int main() {
 
     rotate(a, a + n - 1, a + n);
 
+
     for(int i = 0; i < n; i += 1) {
         cout << a[i] << " ";
     }
