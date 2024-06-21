@@ -1,0 +1,33 @@
+B, C - 5 points each (10 points total)
+for A you all get 2 points +3 bonus points if you solve it
+
+Overall 12 points for Q2, +3 bonus points if you solve A
+
+After you finish:
+1. Delete the files/folder with your code
+2. Empty the recycle bin
+3. Close all windows
+4. Turn off your PC
+5. Take your login paper with you, throw it away
+    - If you leave your login paper after you finish, 
+    you'll get -1 point
+6. Come back for the 3rd hour of practice
+
+Task B - you need to find the largest GCD 
+among all the possible pairs of numbers
+E.g.:
+5
+20 30 40 2 4
+
+20 and 30 (GCD is 10)
+20 and 40 (GCD is 20)
+20 and 2  .
+20 and 4  . 
+30 and 40 . 
+30 and 2  .
+30 and 4  .
+40 and 2  .
+40 and 4  .
+2 and 4   (GCD is 2)
+
+In this sequence 20 and 40 have the largest GCD, 20
