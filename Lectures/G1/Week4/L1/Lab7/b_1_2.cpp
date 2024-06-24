@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+string dec_to_bin(int dec) {
+    if(dec == 0) return "";
+    if(dec == 1) return "1";
+    return char(dec % 2 + '0') + dec_to_bin(dec / 2); 
+}
+
+int main() {
+    int n;
+    cin >> n;
+
+    string bin = dec_to_bin(n);
+    
+    for(int i = bin.size() - 1; i >= 0; i--) {
+        cout << bin[i];
+    }
+    cout << endl;
+
+    return 0;
+}
