@@ -36,3 +36,6 @@
 
 # MacOS files
 **/.DS_Store
+
+# Directories
+/Other
