@@ -1,3 +1,5 @@
+// INCOMPLETE SOLUTION, EXAMPLE OF INPUT
+
 #include <iostream>
 #include <sstream>
 #include <set>
@@ -11,16 +13,22 @@ int main() {
     string inputData;
 
     getline(cin, inputData);
-    istringstream iss1(inputData);
+    istringstream iss;
+
+    iss.str(inputData);
+    cout << iss.str() << endl;
 
     int x;
-    while(iss1 >> x) s1.insert(x);
+    while(iss >> x) s1.insert(x);
 
     inputData.clear();
-    getline(cin, inputData);
-    istringstream iss2(inputData);
+    iss.clear();
 
-    while(iss2 >> x) s2.insert(x);
+    getline(cin, inputData);
+    iss.str(inputData);
+    cout << iss.str() << endl;
+
+    while(iss >> x) s2.insert(x);
 
     set<int>::iterator it;
     for(it = s1.begin(); it != s1.end(); ++it) {
