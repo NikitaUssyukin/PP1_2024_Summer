@@ -10,40 +10,27 @@ int main() {
     const int arraySize = 2;
     set<int> s[arraySize];
 
+    string inputData;
+    istringstream iss;
+
     for(int i = 0; i < arraySize; ++i) {
         inputData.clear();
         iss.clear();
+
+        getline(cin, inputData);
+        iss.str(inputData);
+
+        int x;
+        while(iss >> x) s[i].insert(x);
     }
 
-    string inputData;
-
-    getline(cin, inputData);
-    istringstream iss;
-    
-    iss.str(inputData);
-    cout << iss.str() << endl;
-
-    int x;
-    while(iss >> x) s1.insert(x);
-
-    
-
-    getline(cin, inputData);
-    iss.str(inputData);
-    cout << iss.str() << endl;
-
-    while(iss >> x) s2.insert(x);
-
-    set<int>::iterator it;
-    for(it = s1.begin(); it != s1.end(); ++it) {
-        cout << *it << " ";
+    for(int i = 0; i < arraySize; ++i) {
+        set<int>::iterator it;
+        for(it = s[i].begin(); it != s[i].end(); ++it) {
+            cout << *it << " ";
+        }
+        cout << endl;
     }
-    cout << endl;
-
-    for(it = s2.begin(); it != s2.end(); ++it) {
-        cout << *it << " ";
-    }
-    cout << endl;
 
     return 0;
 }
