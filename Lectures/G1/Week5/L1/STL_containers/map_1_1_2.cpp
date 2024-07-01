@@ -6,18 +6,13 @@ using namespace std;
 int main() {
     map<string, int> m;
 
-    int n;
-    cin >> n;
+    m["Dog"] = 3;
+    m["Cat"] = 5;
+    m["Elephant"] = 1;
 
-    for(int i = 0; i < n; ++i) {
-        string s;
-        int x;
-        cin >> s >> x;
-
-        m[s] = x;
-    }
-
-    cout << "\n----------\n";
+    cout << m["Dog"] << endl;
+    cout << m["Cat"] << endl;
+    cout << m["Elephant"] << endl;
 
     map<string, int>::iterator it;
     for(it = m.begin(); it != m.end(); ++it) {

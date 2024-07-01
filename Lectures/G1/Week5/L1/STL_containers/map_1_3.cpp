@@ -21,8 +21,7 @@ int main() {
 
     map<string, int>::iterator it;
     for(it = m.begin(); it != m.end(); ++it) {
-        pair<string, int> p = *it;
-        cout << p.first << " " << p.second << endl;
+        cout << (*it).first << " " << (*it).second << endl;
     }
 
     return 0;

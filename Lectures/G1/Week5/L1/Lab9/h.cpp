@@ -4,20 +4,17 @@
 using namespace std;
 
 int main() {
-    map<string, int> m;
-
     int n;
     cin >> n;
 
+    map<string, int> m;
+
     for(int i = 0; i < n; ++i) {
-        string s;
-        int x;
-        cin >> s >> x;
+        string temp;
+        cin >> temp;
 
-        m[s] = x;
+        if(m[temp] == 0) m[temp] = i + 1;
     }
-
-    cout << "\n----------\n";
 
     map<string, int>::iterator it;
     for(it = m.begin(); it != m.end(); ++it) {
