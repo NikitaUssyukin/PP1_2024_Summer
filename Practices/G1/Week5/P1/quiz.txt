@@ -8,7 +8,8 @@ After you finish:
     you'll get -1 point
 6. Come back for the 3rd hour of practice
 
-B:
+Problem C:
+
 string s;
 remainder = num % 16
 if(remainder >= 10) s += ('A' + remainder - 10)
